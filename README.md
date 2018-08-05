@@ -6,6 +6,12 @@ Node application that takes in an array of elements that you want to be translat
 ## Repo Owner
 Malcolm Ross
 
+## Additional Notes
+Codebase adheres to the DWA Style Guide
+
+## Adhering to style guide
+Developers will need to update their code editors to use tabs instead of spaces
+
 ## Version
-v1.0.0
+v1.2.0
 
