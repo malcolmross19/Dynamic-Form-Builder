@@ -1,11 +1,11 @@
 // Adds <option></option> elements inside <select></select> elements.
-function addOptions(elem, numOptions){
-	elem = "<select>";
-	for(var j = 0; j < numOptions; j++){
-		elem += "<option value=''></option>";
+function addOptions(elem, numOptions) {
+  let element = elem = '<select>';
+  for (let j = 0; j < numOptions; j+1){
+		element += "<option value=''></option>";
 	}
-	elem += "</select>";
-	return elem;
+	element += "</select>";
+	return element;
 }
 
 // Parses array of html form element placeholders and outputs string containing the html for a form
